@@ -1,0 +1,10 @@
+@import url(normalize.css);
+@import url(pure-min.css);
+
+
+.punto {
+	padding: 20px;
+}
+.success{
+	background: url(../img/ok20.png) no-repeat 0px 0px; 
+}

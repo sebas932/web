@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML TALLER DOM</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/jquery/jquery-1.11.0.min.js"></script>
+	<script src="js/main.js"></script> 
+</head>
+<body>
+	<div id="clase1" class="punto">
+		<strong><p>Clase Jquery 1</p></strong>
+		<hr>	
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, fugiat, aliquam, iusto, cum sed fuga reprehenderit magni corporis perferendis voluptates accusantium ab laboriosam dolores sit reiciendis dolor illo? Nam, magnam!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, explicabo, recusandae numquam dicta quibusdam obcaecati dignissimos in cumque voluptatum expedita consectetur omnis sequi molestiae pariatur optio. Est, dolorum velit cum.</p>
+		<input class="pure-button pure-button-primary" type="button" value="Ocultar">
+	</div>
+
+	<div id="punto1" class="punto">
+		<strong><p>Punto #1</p></strong>
+		<hr>	
+		<form class="pure-form">
+			<input type="button" id="primerBoton" class="pure-button" value="Primer Boton">
+			<input type="button" id="segundoBoton" class="pure-button" value="Segundo Boton">
+			<br><br>
+			<input type="button" id="deshabilitar" class="pure-button pure-button-primary" value="Deshabilita">
+		</form>
+	</div>
+
+	<div id="punto2" class="punto">
+		<strong><p>Punto #2</p></strong>
+		<hr>	
+		<form class="pure-form">
+			Nombre: <input type="text" name="nombre" id="nombre" value="Sebastian"><br>
+			Apellido: <input type="text" name="apellido" id="apellido" value="Amariles"><br>
+			Telefono: <input type="text" name="telefono" id="telefono" value="12345678"><br>
+			<br>
+			<input type="button" id="getDatos" class="pure-button pure-button-primary" value="Obtener datos">
+		</form>
+		<div id="datos"></div>
+	</div>
+
+	<div id="punto3" class="punto">
+		<strong><p>Punto #3</p></strong>
+		<hr>	
+		<form class="pure-form pure-form-stacked"> 
+	        <label for="state">Select</label>
+	        <select id="state">
+	            <option>Opcion #1</option>
+	            <option>Opcion #2</option>
+	            <option>Opcion #3</option>
+	            <option>Opcion #4</option>
+	            <option>Opcion #5</option>
+	        </select> 
+	        <button type="button" id="deshabilitar" class="pure-button pure-button-primary">Deshabilitar</button> 
+	        <button type="button" id="habilitar" class="pure-button pure-button-primary">Habilitar</button> 
+	        <button type="button" id="toggle" class="pure-button pure-button-primary">Habilitar / Deshabilitar</button> 
+		</form>
+	</div>
+
+	<div id="punto4" class="punto">
+		<strong><p>Punto #4</p></strong>
+		<hr>	
+		<form id="form1" class="pure-form pure-form-stacked">
+	        Primer nombre: <input type="text" name="nombre" id="nombre" value="Jose"><br>
+			Segundo nombre: <input type="text" name="nombre2" id="nombre2" value="David"><br>
+			Direccion: <input type="text" name="dir" id="dir" value="Calle 123 #45 - 67"><br>
+			Email: <input type="text" name="email" id="email" value="pepito@mail.com"><br>
+			<br>
+	        <button type="button" id="copiar" class="pure-button pure-button-primary">Copiar</button>  
+		</form>
+		<form  id="form2" class="pure-form pure-form-stacked">
+	        Primer nombre: <input type="text" name="nombre" id="nombre" value=""><br>
+			Segundo nombre: <input type="text" name="nombre2" id="nombre2" value=""><br>
+			Direccion: <input type="text" name="dir" id="dir" value=""><br>
+			Email: <input type="text" name="email" id="email" value=""><br>
+			<br>
+	        
+		</form>
+	</div>
+</body>
+</html>

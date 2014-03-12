@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ParcialValidacion de formulario</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/jquery/jquery-1.9.0.js"></script>
+	<script src="js/parcialValidador.js"></script>
+</head>
+<body>
+	<div id="formulariodiv" class="punto">
+		<form id="formulario" class="pure-form pure-form-aligned">
+		     
+		        <div class="pure-control-group">
+		            <label for="name">Nombres: </label>
+		            <input id="name" name="name" type="text" placeholder="Su nombre..." >
+		        </div>
+
+		        <div class="pure-control-group">
+		            <label for="email">E-mail:</label>
+		            <input id="email" name="email" type="email" placeholder="Su correo ..." />
+		        </div>
+
+		        <div class="pure-control-group">
+		            <label for="tel">Telefono: </label>
+		            <input id="tel" name="tel" type="text" placeholder="Numero telefonico..." />
+		        </div>
+				<div class="pure-control-group">
+		        <label for="state">Sexo</label>
+		        <select id="state">
+		            <option>M</option>
+		            <option>F</option>
+		        </select>
+				</div>
+		        <div class="pure-control-group">
+		            <label for="username">Usuario: </label>
+		            <input id="username" name="username" type="text" placeholder="Username ..." /
+		        </div>    
+				<div class="pure-control-group">
+		            <label for="password">Password</label>
+        			<input id="password" type="password" placeholder="Password"/>
+		        </div>
+
+
+		        <div class="pure-controls">
+		            <label for="remember">
+			            <input id="remember" type="checkbox"> Terminos y  condiciones
+			        </label>
+			    </div>    
+				<div class="pure-controls">	 
+		            <input type="submit" class="pure-button pure-button-primary"/> 
+		        </div>
+		     
+		</form>
+	</div>
+</body>
+</html>
