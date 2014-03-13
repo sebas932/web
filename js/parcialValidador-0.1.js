@@ -5,7 +5,7 @@ function validarFormulario(id){
     msj = "";
     e.preventDefault();
     validado = true; 
-    $("#textoinfo").html("correcto")
+    $(id+" #textoinfo").html("correcto")
     $(id+" [type^='text'], [type^='checkbox'], [type^='email'], [type^='password'], select").each( function(index, value) {
          var rules  = new getRules(this);
 
@@ -17,7 +17,7 @@ function validarFormulario(id){
          if($(this).attr("type") == "checkbox" ) validarCheckbox(this);
 
     });
-    if (!validado) $("#textoinfo").html(msj);
+    if (!validado) $(id+" #textoinfo").html(msj);
  });
 }
 
